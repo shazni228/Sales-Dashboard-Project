@@ -1,53 +1,37 @@
-# Sales-Dashboard-Project
-# Sales Dashboard with Power BI
+# Sales Dashboard
 
-## Overview
-
-Provide a brief overview of your sales dashboard. Mention the key features and goals of the project.
-
-## Preview
-
-Include a screenshot or a GIF showcasing your Power BI sales dashboard. This gives users a quick visual of what they can expect.
-
-## Prerequisites
-
-List any prerequisites or dependencies that users need to have installed before using your sales dashboard. For example:
-
-- Power BI Desktop installed
-- Access to the sales data source
+This sales dashboard was created using PowerBI and provides insights into sales data. 
 
 ## Getting Started
 
-1. Clone the repository:
+To use this dashboard, follow these steps:
 
-   ```bash
-   git clone https://github.com/your-username/sales-dashboard.git
-Open the Power BI file in Power BI Desktop:
-cd sales-dashboard
-start SalesDashboard.pbix
-Connect to your sales data source and refresh the data in Power BI.
+1. Clone or download the repository.
 
-Features
-List and briefly describe the main features of your sales dashboard. For example:
+2. Open the .pbix file using PowerBI Desktop.
 
-Visual representation of sales data
-Monthly and yearly sales trends
-Top-selling products or regions
-Usage
-Explain how users can interact with and customize the dashboard. Provide any necessary instructions for data refresh, filter adjustments, etc.
+3. Ensure that you have the necessary data sources imported into PowerBI or adjust the data connections as needed.
 
-Contributing
-If you'd like to contribute to the project, please follow the contribution guidelines.
+4. Explore the various visualizations and tabs in the dashboard to analyze your sales data.
 
-License
-Specify the license under which you're releasing your project. For example:
+## Folder Structure
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+- `data/`: This folder contains sample sales data used in the dashboard.
 
-Acknowledgments
-Give credit to any resources, tools, or inspirations you used or followed while creating the sales dashboard.
+- `images/`: This folder contains screenshots or images related to the dashboard.
 
-Contact
-Provide contact information for users to reach out to you with questions, issues, or feedback.
+- `src/`: This folder contains any custom scripts or code used in the project.
 
-Feel free to customize the sections based on the specifics of your sales dashboard. Additionally, you might want to include a `.gitignore` file to exclude any unnecessary files (e.g., Power BI temporary files) from being pushed to the repository.
+## Dependencies
+
+The following dependencies are required to run this dashboard:
+
+- PowerBI Desktop ([Download here](https://powerbi.microsoft.com/en-us/desktop/))
+
+## Contributing
+
+If you would like to contribute to this project or have any suggestions, please [open an issue](https://github.com/yourusername/sales-dashboard/issues) or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
